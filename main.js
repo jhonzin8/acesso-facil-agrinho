@@ -37,7 +37,7 @@ var startApp = function() {
     Função executada quando ocorrer falha no logn
   */
   function onFailure(error) {
-      window.location.assign("https://gustavoczaikoski.github.io/Agrinho-AcessoFacil/plataformas");
+      window.location.assign("https://jhonzin8.github.io/acesso-facil-agrinho/plataformas");
       console.log(error);
   }
   
