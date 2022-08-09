@@ -1,0 +1,121 @@
+body{
+  background-image: url('imagem-fundo2.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+#nomedosite{
+  font-family: sans-serif;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 80pt;
+  color: aqua;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  width: 800px;
+  margin-left: -400px;
+}
+
+#plat-links{
+  width: 306px;
+  height: 306px;
+
+  position: absolute;
+  margin-top: -153px; /* e retrocede metade da altura */
+  top: 50%; /* posiciona na metade da tela */
+  margin-left: -153px;
+  left: 50%; /* posiciona na metade da tela */
+}
+
+
+/*caso resolução for no máximo 400px*/
+@media screen and (max-width: 400px) {
+  body{
+    background-image: url('imagem-fundo.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+
+  #nomedosite{
+    font-family: sans-serif;
+    font-size: 35pt;
+    color: aqua;
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    width: 300px;
+    margin-left: -150px;
+  }
+
+  #plat-links{
+    top: 60%;
+  }
+}
+
+#botaogoogle{
+  width: 300px;
+  height: 120px;
+  background-color: white;
+
+  margin-bottom: 15px;
+
+  position: absolute;
+  top: 50%; /* posiciona na metade da tela */
+  margin-top: -60px; /* e retrocede metade da altura */
+  left: 50%; /* posiciona na metade da tela */
+  margin-left: -150px;
+}
+
+#titulologin{
+  position: relative;
+  width: auto;
+  height: auto;
+  left: 31%;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+#caixalogin{
+  position: relative;
+  left: 4%;
+}
+
+#customBtn {
+  display: inline-block;
+  background: #4285f4;
+  color: white;
+  width: 250px;
+  border-radius: 5px;
+  white-space: nowrap;
+  text-align: center;
+}
+#customBtn:hover {
+  cursor: pointer;
+}
+span.label {
+  font-weight: bold;
+}
+span.icon {
+  background: url('https://google-developers.appspot.com/identity/sign-in/g-normal.png') transparent 5px 50% no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  width: 42px;
+  height: 42px;
+}
+span.buttonText {
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 42px;
+  font-size: 14px;
+  font-weight: bold;
+  /* Use the Roboto font that is loaded in the <head> */
+  font-family: 'Roboto', sans-serif;
+}
